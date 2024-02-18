@@ -2,7 +2,6 @@ import numpy as np
 import scipy
 import matplotlib.pyplot as plt
 import pickle
-from celluloid import Camera
 
 class LocIdentification():
   def __init__(self, coords, cluster_labels, all_data):
